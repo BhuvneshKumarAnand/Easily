@@ -1,0 +1,80 @@
+.bg-container {
+  position: relative;
+  background-image: url("../images/easily-background-img.jpg");
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  padding: 50px;
+}
+
+.background-img-content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay-text {
+  top: 15%;
+  left: 50%;
+  font-size: 3rem;
+  font-weight: lighter;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.intro-para {
+  top: 38%;
+  left: 50%;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: lighter;
+  text-shadow: 0.8px 0.8px 0.8px rgba(0, 0, 0, 0.3);
+}
+
+.button-container {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.login-btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* .btn {
+  margin-right: 10px;
+  margin-top: 15px;
+} */
+
+@media (max-width: 768px) {
+  .bg-container {
+    padding: 20px;
+  }
+  .overlay-text {
+    font-size: 2rem;
+  }
+  .intro-para {
+    top: 36%;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .recruiter-btn {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+}
+
+.footer {
+  color: #000000;
+  margin-top: 1.5rem;
+  height: 5rem;
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
